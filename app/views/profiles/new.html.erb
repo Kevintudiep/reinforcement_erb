@@ -1,7 +1,7 @@
 
 <h1>Enter your information</h1>
 
-<% @info.each do |x| %>
+<%= @info.each do |x| %>
   <label for="<%=x%>"><%=x%></label>
   <input type="text" name="<%=x%>" id="<%=x%>" class="fancy_form" >
 <% end %>
